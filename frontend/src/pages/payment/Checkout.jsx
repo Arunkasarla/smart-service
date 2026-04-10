@@ -33,7 +33,7 @@ const Checkout = () => {
                payment_method: 'online'
            };
    
-           const res = await fetch('http://localhost:5000/api/bookings/create', {
+           const res = await fetch('http://localhost:5000/api/bookings', {
                method: 'POST',
                headers: {
                    'Content-Type': 'application/json',
